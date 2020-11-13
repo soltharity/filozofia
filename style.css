@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Caveat', cursive;
+    color: black;
+}
+
+#s1{
+    text-align: center;
+    background: url(https://www.wallpapertip.com/wmimgs/26-263791_grey-grunge-background.jpg);
+}
+#s2{
+    background: url(https://www.wallpapers4u.org/wp-content/uploads/surface_gray_spot_light_texture_50876_1920x1080.jpg);
+}
+#s3{
+    background: url(https://eskipaper.com/images/grey-wallpaper-6.jpg);
+}
+#s4{
+    background: url(https://eskipaper.com/images/gray-wallpaper-26.jpg);
+}
+
+h1{
+    font-size: 80px;
+}
+
+ ul.hr {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+   }
+
+ul.hr li {
+    display: inline;
+    margin-right: 5px;
+    padding: 3px;
+}
+
+a{
+    color: grey;
+    text-decoration: none;
+    font-size: 35px;
+}
+
+a:hover{
+    color: white;
+}
+
+.fp-slidesNav{
+    margin-left: 50% !important;
+    margin-right: : 50% !important;
+    padding-bottom: 10% !important;
+}
+
+span{
+    background: black !important;
+}
+
+#sl2{
+    background: url(https://wallpaperaccess.com/full/2562630.jpg);
+}
