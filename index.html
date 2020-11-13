@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+	<link rel="stylesheet" type="text/css" href="fullpage.css" />
+	<script src="vendors/easings.min.js"></script>
+	<script type="text/javascript" src="vendors/scrolloverflow.min.js"></script>
+	<script type="text/javascript" src="fullpage.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="fullpage">
+	<div class="section s1" id="s1">
+		<h1>"Dobro i zło w naszym życiu"</h1>
+		<ul class="hr">
+		   <li><a href="#section2">Czy dobro i zło  dla każdego znaczy to samo?</a></li>
+		   <li><a href="#section3">Dlaczego jeden człowiek jest dobry a drugi zły?</a></li>
+		   <li><a href="#section4">Co znaczy zwrot "bycie dobrym człowiekiem"?</a></li>
+		 </ul>
+	</div>
+	<div class="section s2" id="s2">
+		<div class="slide" id="sl1">
+			<h1>First slide</h1>
+		</div>
+		<div class="slide" id="sl2">
+			<h1>Second slide</h1>
+		</div>
+		<div class="slide" id="sl3">
+			<h1>Third slide</h1>
+		</div>
+	</div>
+	<div class="section s3" id="s3">Some section3</div>
+	<div class="section s4" id="s4">Some section3</div>
+</div>
+<script type="text/javascript">
+	new fullpage('#fullpage', {
+	//options here
+	autoScrolling:true,
+	scrollHorizontally: true,
+	anchors: ['section1', 'section2', 'section3', 'section4'],
+	navigation: true,
+	showActiveTooltip: true,
+	scrollingSpeed: 700,
+	controlArrows: false,
+	slidesNavigation: true,
+	slidesNavPosition: 'bottom',
+});
+
+//methods
+fullpage_api.setAllowScrolling(true);
+</script>
+</body>
+</html>
