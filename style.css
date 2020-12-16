@@ -1,47 +1,31 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Caveat', cursive;
-    color: black;
+    text-decoration: none;
 }
 
 #s1{
     text-align: center;
-    background: url(https://www.wallpapertip.com/wmimgs/26-263791_grey-grunge-background.jpg);
+    background-image: url(Bakgr1slide.png);
 }
 #s2{
-    background: url(https://www.wallpapers4u.org/wp-content/uploads/surface_gray_spot_light_texture_50876_1920x1080.jpg);
+    background: url(abastraction-abstract-abstraction-acrylic-aquatic-art-1454711-pxhere.com.png);
+    background-size: 1921px 1080px;
 }
 #s3{
-    background: url(https://eskipaper.com/images/grey-wallpaper-6.jpg);
+    background: url(mat-reding-FA9tUxkLCjE-unsplash.png);
 }
 #s4{
     background: url(https://eskipaper.com/images/gray-wallpaper-26.jpg);
 }
-
-h1{
-    font-size: 80px;
-}
-
- ul.hr {
-    margin: 0; /* Обнуляем значение отступов */
-    padding: 4px; /* Значение полей */
-   }
-
-ul.hr li {
-    display: inline;
-    margin-right: 5px;
-    padding: 3px;
-}
-
-a{
+{
     color: grey;
     text-decoration: none;
     font-size: 35px;
 }
 
-a:hover{
-    color: white;
+a:visited {
+   color: grey;
 }
 
 .fp-slidesNav{
@@ -53,7 +37,85 @@ a:hover{
 span{
     background: black !important;
 }
+li{
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+}
 
 #sl2{
     background: url(https://wallpaperaccess.com/full/2562630.jpg);
+}
+
+#czy{
+    text-align: left;
+    margin-left: 250px;
+    margin-top: 3%;
+    font: normal normal normal 30px/49px Montserrat;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+
+#dla{
+    text-align: right;
+    margin-right: 250px;
+    margin-top: 3%;
+    font: normal normal normal 30px/49px Montserrat;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+
+#co{
+    text-align: left;
+    margin-left: 250px;
+    margin-top: 3%;
+    font: normal normal normal 30px/49px Montserrat;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+
+#header{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    text-align: center;
+    font: normal normal bold 93px/113px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+#header-text{
+    text-align: left;
+    margin-left: 20%;
+    width: 60%;
+    font: normal normal normal 35px/49px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+p:hover{
+    color: white;
+}
+
+#headersl1{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    text-align: center;
+    font: normal normal bold 93px/113px Montserrat;
+    letter-spacing: 0px;
+    color: white;
+    opacity: 1;
+}
+
+h3{
+    text-align: left;
+    font: normal normal normal 20px/49px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    width: 1400px;
+    margin-left: 15%;
 }
