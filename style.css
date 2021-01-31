@@ -80,6 +80,13 @@ li{
     opacity: 1;
     font-size: 35px;
 }
+#strelka{
+    position: absolute;
+    left: 5%;
+    transform: rotate(180deg);
+    bottom: 10%;
+    filter: invert(1);
+}
 
 #header{
     margin-top: 3%;
@@ -408,6 +415,7 @@ h3{
     position: absolute;
     transition: .5s all;
     top: -9999px;
+
     
     
 }
@@ -446,7 +454,43 @@ h3{
 }
 
 
+.btn1:hover{
+    filter: blur(0px);
 
+}
+.btn1>img:hover{
+    border: 5px solid #fff;
+    border-radius: 100px;
+    filter: blur(0px);
+
+}.btn2:hover{
+    filter: blur(0px);
+
+}
+.btn2>img:hover{
+    border: 5px solid #fff;
+    border-radius: 100px;
+    filter: blur(0px);
+
+}.btn3:hover{
+    filter: blur(0px);
+
+}
+.btn3>img:hover{
+    border: 5px solid #fff;
+    border-radius: 100px;
+    filter: blur(0px);
+
+}.btn4:hover{
+    filter: blur(0px);
+
+}
+.btn4>img:hover{
+    border: 5px solid #fff;
+    border-radius: 100px;
+    filter: blur(0px);
+
+}
 
 
 
@@ -467,7 +511,11 @@ h3{
     position: absolute;
     left: 7.23%;
     bottom: 30.3%;
+    filter: blur(4px);
+
 }
+
+
 .popup1{
     display: block;
     margin: 0 auto;
@@ -478,6 +526,7 @@ h3{
     position: absolute;
     transition: .5s all;
     top: -9999px; 
+
 }
 #picpop{
     position: absolute;
@@ -552,6 +601,7 @@ h3{
     position: absolute;
     left: 7.23%;
     bottom: .7%;
+    filter: blur(4px);
 }
 .popup2{
     display: block;
@@ -642,6 +692,7 @@ h3{
     position: absolute;
     right: 7.23%;
     bottom: 30.3%;
+    filter: blur(4px);
 }
 .popup3{
     display: block;
@@ -729,6 +780,11 @@ h3{
     position: absolute;
     right: 7.23%;
     bottom: .7%;
+    filter: blur(4px);
+}
+.btn4>img{
+    border: 3px solid #fff;
+    border-radius: 100px;
 }
 .popup4{
     display: block;
